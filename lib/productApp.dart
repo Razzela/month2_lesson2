@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'constants.dart';
 
 class ProductApp extends StatelessWidget {
@@ -169,14 +170,11 @@ class ProductCard extends StatelessWidget {
           ),
           SizedBox(height: 8),
           ElevatedButton(onPressed: () {}, child: Text('Купить')),
-          SizedBox( height: 8,),
+          SizedBox(height: 8),
           SizedBox(
-  width: double.infinity,
-  child: OutlinedButton(
-    onPressed: () {},
-    child: Text('В избранное'),
-  ),
-),
+            width: double.infinity,
+            child: OutlinedButton(onPressed: () {}, child: Text('В избранное')),
+          ),
         ],
       ),
     );
