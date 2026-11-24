@@ -7,5 +7,5 @@ import 'package:flutter_application_2/pageViewApp.dart';
 import 'package:flutter_application_2/temperatureapp.dart';
 
 
-void main() => runApp(Marketapp());
+void main() => runApp(MarketApp());
 
